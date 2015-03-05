@@ -1,7 +1,8 @@
 # cexplore
 Code for concept explorer. A web application to display concept properties based on dbpedia queries.
 
-About the project
+About the project:
+
 This project was developed by kunalsen and krishnadhi. The aim of the project is to make use of dbpedia (and other datasets in future)
 to understand concepts/terms. It is intended to be a web application and currently runs on apache tomcat. A standalone 
 test functionality is also available. Features:
