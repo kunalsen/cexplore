@@ -24,6 +24,14 @@ Then search for concept2 and then click save uri. Then click the compare button 
 
 ** The java source code resides under the directory src
 
+MainServlet.java : is the servlet class that handles all the http requests. It parses the request parameters and makes calls to SparqlEvaluator to fire SPARQL queries to the endpoint and get result back as JSON.
+
+SparqlEvaluator.java : is the singleton class which provides an interface for all SPARQL queries. It calls RDFXMLProcessor to convert the returned triples to JSON.
+
+RDFXMLProcessor.java : is the a RDF handler that visits all the statements and return JSON
+
+CacheKey.java : We cache queries and their results. Cachekey represents a unique value for each query and its parameters.
+
 ** html and js files are in the web-src directory
 
 ** Runnable web application is contained in the cexplore.zip file
