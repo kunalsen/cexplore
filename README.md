@@ -5,16 +5,18 @@ About the project:
 
 This project was developed by kunalsen and krishnadhi. The aim of the project is to make use of dbpedia (and other datasets in future)
 to understand concepts/terms. It is intended to be a web application and currently runs on apache tomcat. A standalone 
-test functionality is also available. Features:
+test functionality is also available. 
+
+Some Features:
 
 
 1. Search for a concept say: Alan Turing
 
 2. The applications fires a series of SPARQL queries to get relevant data from dbpedia.
 
-3. Disambiguation, RDF Classes, Wikipedia topics, foaf links, RDF properties for this concept is displayed on the web app.
+3. Disambiguation, RDF Classes, Wikipedia topics, foaf links, RDF properties for this concept are displayed on the web app.
 
-4. The user can explore other concepts for which links shown in step 3.
+4. The user can explore other concepts for which links shown in step 3. Or the user can select a class to which the searched concept belongs to. Then compare various instances of that class.
 
 5. The user can compare two concepts for similar properties. First search for concept1 then click on "save uri". 
 Then search for concept2 and then click save uri. Then click the compare button to see how these concepts share same properties.
