@@ -45,7 +45,8 @@ To run the application on commandline ant 1.6 or above is required
 3. In the command line navigate to the root directory of this repo
 
 4. Run ant 
-    this will build the application
+    
+   This will build the application
 
 5. Run ant TestConcept
 
