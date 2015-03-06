@@ -48,7 +48,8 @@ To run the application on commandline ant 1.6 or above is required
     this will build the application
 
 5. Run ant TestConcept
-    this will run the test functionality. It will ask for an input. For testing purposes you can put a famous personality name.
+
+  This will run the test functionality. It will ask for an input. For testing purposes you can put a famous personality name.
     e.g. Alan Turing
     
     
